@@ -29,7 +29,6 @@ public class DatabaseExtraMetricsExtensionFactory extends ExtensionFactory<Datab
         JobScheduler jobScheduler();
 
         NamedDatabaseId databaseId();
-
         Config config();
     }
 }

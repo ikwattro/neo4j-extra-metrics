@@ -30,7 +30,15 @@ public class DatabaseExtraMetricsExtension implements Lifecycle {
         optionalMetricsManager.ifPresent(metricsManager -> {
             if (metricsManager.isConfigured()) {
                 var registry = metricsManager.getRegistry();
-                this.life.add(new TokenCountMetrics(metricsName(dependencies.databaseId().name()), registry, dependencies.databaseId(), dependencies.jobScheduler(), dependencies.api()));
+                this.life.add(
+                        new TokenCountMetrics(
+                                metricsName(dependencies.databaseId().name()),
+                                registry,
+                                dependencies.databaseId(),
+                                dependencies.jobScheduler(),
+                                dependencies.api()
+                        )
+                );
             }
         });
     }
