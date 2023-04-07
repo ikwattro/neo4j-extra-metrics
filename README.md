@@ -46,31 +46,30 @@ Restart your neo4j server
 Once restarted, you can inspect metrics on http://localhost:2004/metrics
 
 ```
-neo4j_database_test3_extra_label_GunCrime_total 636.0
-# HELP neo4j_database_neo4j_extra_internal_query_time_total Generated from Dropwizard metric import (metric=neo4j.database.neo4j.extra.internal_query_time, type=com.neo4j.metrics.metric.MetricsCounter)
-# TYPE neo4j_database_neo4j_extra_internal_query_time_total counter
-neo4j_database_neo4j_extra_internal_query_time_total 0.0
-# HELP neo4j_database_test6_extra_label_Person_total Generated from Dropwizard metric import (metric=neo4j.database.test6.extra.label.Person, type=com.neo4j.metrics.metric.MetricsCounter)
-# TYPE neo4j_database_test6_extra_label_Person_total counter
-neo4j_database_test6_extra_label_Person_total 42006.0
-# HELP neo4j_database_test4_extra_label_Arrest_total Generated from Dropwizard metric import (metric=neo4j.database.test4.extra.label.Arrest, type=com.neo4j.metrics.metric.MetricsCounter)
-# TYPE neo4j_database_test4_extra_label_Arrest_total counter
-neo4j_database_test4_extra_label_Arrest_total 85659.0
-# HELP neo4j_database_test4_extra_label_BusStop_total Generated from Dropwizard metric import (metric=neo4j.database.test4.extra.label.BusStop, type=com.neo4j.metrics.metric.MetricsCounter)
-# TYPE neo4j_database_test4_extra_label_BusStop_total counter
-neo4j_database_test4_extra_label_BusStop_total 1213.0
-# HELP neo4j_database_test3_extra_label_Gun_total Generated from Dropwizard metric import (metric=neo4j.database.test3.extra.label.Gun, type=com.neo4j.metrics.metric.MetricsCounter)
-# TYPE neo4j_database_test3_extra_label_Gun_total counter
-neo4j_database_test3_extra_label_Gun_total 269.0
-# HELP neo4j_database_test3_extra_label_Location_total Generated from Dropwizard metric import (metric=neo4j.database.test3.extra.label.Location, type=com.neo4j.metrics.metric.MetricsCounter)
-# TYPE neo4j_database_test3_extra_label_Location_total counter
-neo4j_database_test3_extra_label_Location_total 93197.0
-# HELP neo4j_database_test4_extra_label_GunCrime_total Generated from Dropwizard metric import (metric=neo4j.database.test4.extra.label.GunCrime, type=com.neo4j.metrics.metric.MetricsCounter)
-# TYPE neo4j_database_test4_extra_label_GunCrime_total counter
-neo4j_database_test4_extra_label_GunCrime_total 636.0
-# HELP neo4j_database_ukrail_extra_label_Path_total Generated from Dropwizard metric import (metric=neo4j.database.ukrail.extra.label.Path, type=com.neo4j.metrics.metric.MetricsCounter)
-# TYPE neo4j_database_ukrail_extra_label_Path_total counter
-neo4j_database_ukrail_extra_label_Path_total 21769.0
+# HELP neo4j_database_neo4j_extra_label_Person_total Generated from Dropwizard metric import (metric=neo4j.database.neo4j.extra.label.Person, type=com.neo4j.metrics.metric.MetricsCounter)
+# TYPE neo4j_database_neo4j_extra_label_Person_total counter
+neo4j_database_neo4j_extra_label_Person_total 399.0
+# HELP neo4j_database_neo4j_extra_relationshipType_ACTED_IN_total Generated from Dropwizard metric import (metric=neo4j.database.neo4j.extra.relationshipType.ACTED_IN, type=com.neo4j.metrics.metric.MetricsCounter)
+# TYPE neo4j_database_neo4j_extra_relationshipType_ACTED_IN_total counter
+neo4j_database_neo4j_extra_relationshipType_ACTED_IN_total 516.0
+# HELP neo4j_database_neo4j_extra_relationshipType_PRODUCED_total Generated from Dropwizard metric import (metric=neo4j.database.neo4j.extra.relationshipType.PRODUCED, type=com.neo4j.metrics.metric.MetricsCounter)
+# TYPE neo4j_database_neo4j_extra_relationshipType_PRODUCED_total counter
+neo4j_database_neo4j_extra_relationshipType_PRODUCED_total 45.0
+# HELP neo4j_database_neo4j_extra_relationshipType_WROTE_total Generated from Dropwizard metric import (metric=neo4j.database.neo4j.extra.relationshipType.WROTE, type=com.neo4j.metrics.metric.MetricsCounter)
+# TYPE neo4j_database_neo4j_extra_relationshipType_WROTE_total counter
+neo4j_database_neo4j_extra_relationshipType_WROTE_total 30.0
+# HELP neo4j_database_neo4j_extra_relationshipType_REVIEWED_total Generated from Dropwizard metric import (metric=neo4j.database.neo4j.extra.relationshipType.REVIEWED, type=com.neo4j.metrics.metric.MetricsCounter)
+# TYPE neo4j_database_neo4j_extra_relationshipType_REVIEWED_total counter
+neo4j_database_neo4j_extra_relationshipType_REVIEWED_total 27.0
+# HELP neo4j_database_neo4j_extra_label_Movie_total Generated from Dropwizard metric import (metric=neo4j.database.neo4j.extra.label.Movie, type=com.neo4j.metrics.metric.MetricsCounter)
+# TYPE neo4j_database_neo4j_extra_label_Movie_total counter
+neo4j_database_neo4j_extra_label_Movie_total 114.0
+# HELP neo4j_database_neo4j_extra_relationshipType_FOLLOWS_total Generated from Dropwizard metric import (metric=neo4j.database.neo4j.extra.relationshipType.FOLLOWS, type=com.neo4j.metrics.metric.MetricsCounter)
+# TYPE neo4j_database_neo4j_extra_relationshipType_FOLLOWS_total counter
+neo4j_database_neo4j_extra_relationshipType_FOLLOWS_total 9.0
+# HELP neo4j_database_neo4j_extra_relationshipType_DIRECTED_total Generated from Dropwizard metric import (metric=neo4j.database.neo4j.extra.relationshipType.DIRECTED, type=com.neo4j.metrics.metric.MetricsCounter)
+# TYPE neo4j_database_neo4j_extra_relationshipType_DIRECTED_total counter
+neo4j_database_neo4j_extra_relationshipType_DIRECTED_total 132.0
 ```
 
 
