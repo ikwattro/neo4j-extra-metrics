@@ -22,7 +22,6 @@ Add the following setting to your `neo4j.conf`
 
 ```
 server.metrics.enabled=true
-server.metrics.namespaces.enabled=true
 server.metrics.prometheus.enable=true
 server.metrics.prometheus.endpoint=0.0.0.0:2004
 server.metrics.filter=*
@@ -32,7 +31,6 @@ or in your docker compose neo4j service environment
 
 ```
 - NEO4J_server_metrics_enabled=true
-- NEO4J_server_metrics_namespaces_enabled=true
 - NEO4J_server_metrics_prometheus_enabled=true
 - NEO4J_server_metrics_prometheus_endpoint=0.0.0.0:2004
 - NEO4J_server_metrics_filter=*
