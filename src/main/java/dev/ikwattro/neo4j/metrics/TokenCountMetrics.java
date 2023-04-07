@@ -52,7 +52,7 @@ public class TokenCountMetrics extends Metrics {
     @Override
     public void start() {
         var schedulerRate = getJobScheduleRate();
-        System.out.println("starting extra metrics job scheduler with rate %d ms".formatted(schedulerRate));
+        System.out.println("starting extra metrics job scheduler on database %s with rate %d ms".formatted(databaseId.name(), schedulerRate));
         JobMonitoringParams jobMonitoringParams = JobMonitoringParams.systemJob(databaseId.name(), "update of labels count metrics");
         this.updateValuesHandle = scheduler.scheduleRecurring(Group.DATABASE_INFO_SERVICE, jobMonitoringParams, this::update, schedulerRate, TimeUnit.MILLISECONDS);
     }
